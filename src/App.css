@@ -64,3 +64,131 @@ li {
 .pokemon-type--poison::before {
   content: " ☠️ ";
 }
+
+.pokemon-type--fire {
+  background: hsl(0, 20%, 30%);
+  border: solid 1px hsl(0, 80%, 80%);
+}
+.pokemon-type--fire::before {
+  content: " 🔥 ";
+}
+
+.pokemon-type--flying {
+  background: hsl(240, 20%, 30%);
+  border: solid 1px hsl(240, 80%, 80%);
+}
+.pokemon-type--flying::before {
+  content: " 🦅 ";
+}
+
+.pokemon-type--water {
+  background: hsl(210, 20%, 30%);
+  border: solid 1px hsl(210, 80%, 80%);
+}
+.pokemon-type--water::before {
+  content: " 💦 ";
+}
+
+.pokemon-type--bug {
+  background: hsl(60, 20%, 30%);
+  border: solid 1px hsl(60, 80%, 80%);
+}
+.pokemon-type--bug::before {
+  content: " 🐞 ";
+}
+
+.pokemon-type--normal {
+  background: hsl(0, 0%, 30%);
+  border: solid 1px hsl(0, 0%, 80%);
+}
+.pokemon-type--normal::before {
+  content: " 🐾 ";
+}
+
+.pokemon-type--electric {
+  background: hsl(60, 100%, 50%);
+  border: solid 1px hsl(60, 100%, 80%);
+}
+.pokemon-type--electric::before {
+  content: " ⚡ ";
+}
+
+.pokemon-type--ground {
+  background: hsl(30, 20%, 30%);
+  border: solid 1px hsl(30, 80%, 80%);
+}
+.pokemon-type--ground::before {
+  content: " 👣 ";
+}
+
+.pokemon-type--fairy {
+  background: hsl(330, 20%, 30%);
+  border: solid 1px hsl(330, 80%, 80%);
+}
+.pokemon-type--fairy::before {
+  content: " 🧚 ";
+}
+
+.pokemon-type--fighting {
+  background: hsl(0, 100%, 50%);
+  border: solid 1px hsl(0, 100%, 80%);
+}
+.pokemon-type--fighting::before {
+  content: " 👊 ";
+}
+
+.pokemon-type--psychic {
+  background: hsl(300, 20%, 30%);
+  border: solid 1px hsl(300, 80%, 80%);
+}
+.pokemon-type--psychic::before {
+  content: " 🧠 ";
+}
+
+.pokemon-type--rock {
+  background: hsl(30, 20%, 30%);
+  border: solid 1px hsl(30, 80%, 80%);
+}
+.pokemon-type--rock::before {
+  content: " 🪨 ";
+}
+
+.pokemon-type--steel {
+  background: hsl(240, 20%, 30%);
+  border: solid 1px hsl(240, 80%, 80%);
+}
+.pokemon-type--steel::before {
+  content: " ⚔️ ";
+}
+
+.pokemon-type--ice {
+  background: hsl(180, 20%, 30%);
+  border: solid 1px hsl(180, 80%, 80%);
+}
+.pokemon-type--ice::before {
+  content: " ❄️ ";
+}
+
+.pokemon-type--ghost {
+  background: hsl(270, 20%, 30%);
+  border: solid 1px hsl(270, 80%, 80%);
+}
+.pokemon-type--ghost::before {
+  content: " 👻 ";
+}
+
+.pokemon-type--dragon {
+  background: hsl(270, 100%, 50%);
+  border: solid 1px hsl(270, 100%, 80%);
+}
+.pokemon-type--dragon::before {
+  content: " 🐉 ";
+}
+
+.pokemon-type--dark {
+  background: hsl(270, 10%, 30%);
+  border: solid 1px hsl(270, 30%, 80%);
+}
+.pokemon-type--dark::before {
+  content: " 🌑 ";
+}
