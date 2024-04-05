@@ -1,42 +1,66 @@
-#root {
+body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+p {
+  margin: 0.25rem 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
 }
 
-.card {
-  padding: 2em;
+li {
+  border: solid 2px black;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
-.read-the-docs {
-  color: #888;
+/* img.sprite {
+  height: 100px;
+  width: 100px;
+} */
+
+.pokemon-type {
+  display: inline-block;
+  border: solid 2px grey;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+}
+
+.pokemon-type--grass {
+  background: hsl(120, 20%, 30%);
+  border: solid 1px hsl(120, 80%, 80%);
+}
+.pokemon-type--grass::before {
+  content: " 🌿 ";
+}
+
+.pokemon-type--poison {
+  background: hsl(276, 20%, 30%);
+  border: solid 1px hsl(276, 80%, 80%);
+}
+.pokemon-type--poison::before {
+  content: " ☠️ ";
 }

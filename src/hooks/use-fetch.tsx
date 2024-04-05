@@ -9,7 +9,7 @@ type UseFetchProps<TData> = {
 
 export const useFetch = <TData extends object>(
   url: string,
-  options: RequestInit
+  options?: RequestInit
 ): UseFetchProps<TData> => {
   const [data, setData] = useState<TData | undefined>(undefined);
   const [error, setError] = useState<string | undefined>(undefined);
