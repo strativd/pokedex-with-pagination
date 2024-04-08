@@ -106,7 +106,7 @@ li {
 }
 
 .pokemon-type--electric {
-  background: hsl(60, 100%, 50%);
+  background: hsl(50, 70%, 30%);
   border: solid 1px hsl(60, 100%, 80%);
 }
 .pokemon-type--electric::before {
